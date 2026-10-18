@@ -1,66 +1,66 @@
-# 🚢 Titanic Archive — Passenger Data Analysis
+# 🚢 Titanic Archive — Анализ данных о пассажирах «Титаника»
 
-An interactive data analysis dashboard exploring the Titanic passenger dataset. Built with Python, Pandas, Streamlit, and Plotly.
+Интерактивное веб-приложение для исследования данных о пассажирах «Титаника». Проект позволяет изучать статистику выживаемости, сравнивать группы пассажиров и анализировать исторические данные с помощью графиков и фильтров.
 
-## ✨ Features
+## ✨ Возможности проекта
 
-- **Interactive Dashboard** — key statistics on passengers, survivors, and survival rates.
-- **Passenger Filters** — filter records by gender, ticket class, and age.
-- **Data Visualizations** — explore survival outcomes, survival rates by gender and ticket class, and passenger age distributions.
-- **Passenger Archive** — search passenger records and view individual passenger profiles.
-- **CSV Export** — download filtered passenger data.
-- **Insights & Findings** — compare survival rates and explore patterns in the dataset.
-- **Custom Interface** — a redesigned editorial-style dashboard inspired by a historical archive, with cream backgrounds, graphite panels, and gold accents.
+- **Интерактивная панель** — просмотр общей статистики пассажиров, выживших и погибших.
+- **Фильтрация данных** — отбор пассажиров по полу, классу билета и возрасту.
+- **Визуализация данных** — графики выживаемости, сравнение мужчин и женщин, анализ классов билетов и распределения возраста.
+- **Архив пассажиров** — поиск пассажиров, просмотр таблицы и индивидуальных карточек.
+- **Экспорт данных** — скачивание отфильтрованных записей в формате CSV.
+- **Аналитические выводы** — сравнение показателей и поиск закономерностей в данных.
+- **Авторский дизайн** — интерфейс в стиле исторического архива с кремовым фоном, графитовыми элементами и золотыми акцентами.
 
-## 🛠️ Technologies
+## 🛠️ Используемые технологии
 
-- Python
-- Pandas
-- Streamlit
-- Plotly
+- **Python** — язык программирования.
+- **Pandas** — обработка и анализ данных.
+- **Streamlit** — создание интерактивного веб-приложения.
+- **Plotly** — построение графиков и диаграмм.
 
-## 📁 Project Structure
+## 📁 Структура проекта
 
 ```text
 titanic-project/
-├── app.py
-├── train.csv
-├── requirements.txt
-├── .gitignore
-└── README.md
+├── app.py              # Код веб-приложения
+├── train.csv           # Датасет пассажиров
+├── requirements.txt    # Зависимости проекта
+├── .gitignore          # Исключения Git
+└── README.md           # Описание проекта
 ```
 
-## 🚀 Run Locally
+## 🚀 Как запустить проект
 
-1. Clone the repository:
+### 1. Клонирование репозитория
 
-   ```bash
-   git clone https://github.com/8W1zzy8/titanic-project.git
-   cd titanic-project
-   ```
+```bash
+git clone https://github.com/8W1zzy8/titanic-project.git
+cd titanic-project
+```
 
-2. Install dependencies:
+### 2. Установка зависимостей
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+```bash
+pip install -r requirements.txt
+```
 
-3. Start the application:
+### 3. Запуск приложения
 
-   ```bash
-   python -m streamlit run app.py
-   ```
+```bash
+python -m streamlit run app.py
+```
 
-4. Open the local URL displayed in your terminal.
+После запуска открой адрес, который появится в терминале, обычно `http://localhost:8501`.
 
-## 📊 Dataset
+## 📊 О наборе данных
 
-This project uses the Titanic passenger dataset, containing information such as passenger age, sex, ticket class, fare, and survival outcome.
+Проект использует набор данных о пассажирах «Титаника». Он содержит сведения о возрасте, поле, классе билета, стоимости проезда, родственниках на борту и результате для каждого пассажира.
 
-## 🎯 Project Goal
+## 🎯 Цель проекта
 
-The goal is to explore historical passenger data, visualize survival patterns, and demonstrate interactive data analysis using Python.
+Изучить исторические данные, выявить закономерности выживаемости пассажиров и продемонстрировать возможности интерактивного анализа данных с использованием Python.
 
 ---
 
-**Built with Python · Pandas · Streamlit · Plotly**
+**Учебный проект · Python · Pandas · Streamlit · Plotly**
