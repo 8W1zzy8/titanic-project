@@ -1,75 +1,66 @@
-# 🚢 Titanic — анализ данных пассажиров
+# 🚢 Titanic Archive — Passenger Data Analysis
 
-Учебный проект по анализу данных на основе датасета **Titanic**.
+An interactive data analysis dashboard exploring the Titanic passenger dataset. Built with Python, Pandas, Streamlit, and Plotly.
 
-## 📌 О проекте
+## ✨ Features
 
-В проекте проводится анализ данных о пассажирах Титаника.
-С помощью Python и библиотеки Streamlit создан интерактивный интерфейс, который позволяет изучать данные и смотреть основные показатели выживаемости пассажиров.
+- **Interactive Dashboard** — key statistics on passengers, survivors, and survival rates.
+- **Passenger Filters** — filter records by gender, ticket class, and age.
+- **Data Visualizations** — explore survival outcomes, survival rates by gender and ticket class, and passenger age distributions.
+- **Passenger Archive** — search passenger records and view individual passenger profiles.
+- **CSV Export** — download filtered passenger data.
+- **Insights & Findings** — compare survival rates and explore patterns in the dataset.
+- **Custom Interface** — a redesigned editorial-style dashboard inspired by a historical archive, with cream backgrounds, graphite panels, and gold accents.
 
-## 📊 Что показывает программа
+## 🛠️ Technologies
 
-Приложение позволяет:
+- Python
+- Pandas
+- Streamlit
+- Plotly
 
-* посмотреть общее количество пассажиров;
-* узнать количество выживших;
-* посмотреть количество мужчин и женщин;
-* фильтровать пассажиров по полу;
-* фильтровать пассажиров по классу;
-* сравнить количество выживших и погибших;
-* посмотреть процент выживаемости мужчин и женщин;
-* просматривать таблицу с данными пассажиров.
-
-## 🛠 Используемые технологии
-
-* **Python**
-* **Pandas** — работа с данными
-* **Streamlit** — создание интерфейса
-* **Plotly** — построение графиков
-* **Git / GitHub** — хранение и версия проекта
-
-## 📁 Файлы проекта
+## 📁 Project Structure
 
 ```text
 titanic-project/
-│
-├── app.py              # Основная программа
-├── train.csv           # Датасет Titanic
-├── requirements.txt    # Необходимые библиотеки
-├── .gitignore          # Файлы, которые не загружаются в Git
-└── README.md           # Описание проекта
+├── app.py
+├── train.csv
+├── requirements.txt
+├── .gitignore
+└── README.md
 ```
 
-## ▶️ Как запустить проект
+## 🚀 Run Locally
 
-### 1. Установить зависимости
+1. Clone the repository:
 
-Откройте терминал в папке проекта и выполните:
+   ```bash
+   git clone https://github.com/8W1zzy8/titanic-project.git
+   cd titanic-project
+   ```
 
-```bash
-python -m pip install -r requirements.txt
-```
+2. Install dependencies:
 
-### 2. Запустить приложение
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-```bash
-python -m streamlit run app.py
-```
+3. Start the application:
 
-После запуска Streamlit откроет приложение в браузере.
+   ```bash
+   python -m streamlit run app.py
+   ```
 
-## 💡 Основные выводы
+4. Open the local URL displayed in your terminal.
 
-В ходе анализа можно увидеть, что выживаемость пассажиров зависела от разных факторов, в том числе от пола и класса пассажира.
+## 📊 Dataset
 
-В частности, среди женщин процент выживших был значительно выше, чем среди мужчин.
+This project uses the Titanic passenger dataset, containing information such as passenger age, sex, ticket class, fare, and survival outcome.
 
-## 🎯 Цель проекта
+## 🎯 Project Goal
 
-Цель проекта — познакомиться с основами анализа данных, научиться работать с CSV-файлами, создавать простые визуализации и разрабатывать интерактивный интерфейс на Python.
+The goal is to explore historical passenger data, visualize survival patterns, and demonstrate interactive data analysis using Python.
 
 ---
 
-**Автор:** Zelimkhan
-
-**Проект:** Titanic Dataset Analysis
+**Built with Python · Pandas · Streamlit · Plotly**
